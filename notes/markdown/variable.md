@@ -29,7 +29,7 @@ let age = 21;
 ```
 
 # what is the difference between var, let, and const?
-`var` is a global scoped variable, `let` is a block scoped variable, and `cons`t is a block scoped variable that cannot be changed.
+`var` is a global scoped variable, `let` is a block scoped variable, and `const` is a block scoped variable that cannot be changed.
 
 ## additional notes
 variables can also store functions, objects, arrays, regex, booleans, undefined, null, and symbols.
