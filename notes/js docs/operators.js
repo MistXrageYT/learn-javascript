@@ -53,6 +53,19 @@
 // ? if statement
 // : else statement
 
+//Unary Operators
+// ++ increment
+// -- decrement
+
+//Nullish Coalescing Operator
+// ?? nullish coalescing
+
+//Optional Chaining Operator
+// ?. optional chaining
+
+//Spread Operator
+// ... spread
+
 //typeof Operator
 // returns the type of a variable
 
@@ -201,3 +214,15 @@ console.log(typeof null1); // object
 let undefined1;
 
 console.log(typeof undefined1); // undefined
+
+
+//Example 8: spread operator
+
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+
+let arr3 = [...arr1, ...arr2];
+
+console.log(arr3); // [1, 2, 3, 4, 5, 6]
+// Note: The spread operator (...) is used to concatenate arrays and objects. 
+// It can also be used to create shallow copies of arrays and objects, without altering the original.

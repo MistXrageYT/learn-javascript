@@ -84,12 +84,23 @@ operators are symbols that perform a specific task. Functions are blocks of code
 
 `:` else statement
 
+# Unary Operators
+ `++` increment
+ `--` decrement
+
+# Nullish Coalescing Operator
+ `??` nullish coalescing
+
+# Optional Chaining Operator
+ `?.` optional chaining
+# Spread Operator
+ `...` spread
 
 ## typeof Operator
 returns the type of a variable
 
-## what is the difference between == and ===?
-`==` is used to compare the value of two variables. === is used to compare the value and the type of two variables. 
+## what is the difference between `==` and `===`?
+`==` is used to compare the value of two variables. `===` is used to compare the value and the type of two variables. 
 
 
 # Example 1: Arithmetic Operators
@@ -250,3 +261,16 @@ let undefined1;
 
 console.log(typeof undefined1); // undefined
 ```
+
+# Example 8: spread operator
+
+```js
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+
+let arr3 = [...arr1, ...arr2];
+
+console.log(arr3); // [1, 2, 3, 4, 5, 6]
+```
+#### Note: The spread operator `(...)` is used to concatenate arrays and objects. 
+#### It can also be used to create shallow copies of arrays and objects, without altering the original.
