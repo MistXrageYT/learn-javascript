@@ -1,0 +1,21 @@
+Please Download one of them or both.
+
+nodejs
+
+or
+
+bun
+
+this is only for peoples who is using vs code or an IDE for coding
+
+Download nodejs from here
+https://nodejs.org/en
+
+(Download only LTS version for LONG TERMS SUPPORT)
+
+Download Bun.js from here
+https://bun.sh/
+
+for the time being you don't need to why we are installing them.
+
+because sooner will talk about it after a while
